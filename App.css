@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.block {
+  width: 100%;
+  max-width: 1400px;
+  padding: 200px;
+  margin: 0 10px;
+  background-color: #780f90;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(143, 7, 125, 0.1);
+}
+
+.block h2 {
+  margin-bottom: 10px;
+}
+
+.block p {
+  margin-bottom: 10px;
+}
+
+.block ul {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #065326;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Adjustments for different blocks */
+.about {
+  background-color: #690548;
+}
+
+.experience {
+  background-color: #f90c6b;
+}
+
+.projects {
+  background-color: #690548;
+}
+
+.contacts {
+  background-color: #f90c6b;
+}
+
+
